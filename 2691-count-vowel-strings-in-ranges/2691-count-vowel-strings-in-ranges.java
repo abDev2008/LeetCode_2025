@@ -20,7 +20,6 @@ class Solution {
             prev=queries[i][0]-1<0?0:sum[queries[i][0]-1];
             ans[i]=sum[queries[i][1]] - prev;
         }
-
         return ans;
     }
 }
