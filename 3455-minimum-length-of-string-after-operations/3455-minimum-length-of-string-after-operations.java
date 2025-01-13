@@ -1,17 +1,19 @@
 class Solution {
     public int minimumLength(String s) {
-        int n = s.length(), del = 0;
-        Map<Character, Integer> mp = new HashMap<>();
-
-        for (int i = 0; i < n; i++) {
-            mp.put(s.charAt(i), mp.getOrDefault(s.charAt(i), 0) + 1);
+        
+        int[] charFreq = new int[26];
+        
+        for (char ch : s.toCharArray()) {
+            charFreq[ch - 'a']++;
         }
-
-        for (Map.Entry<Character, Integer> entry : mp.entrySet()) {
-            int f = entry.getValue();
-            del += (f % 2 == 1) ? f - 1 : f - 2;
+        
+        int res = 0;
+        for (int freq : charFreq) {
+            if (freq > 0) {
+                res += 1 + ((freq % 2 == 0) ? 1 : 0);
+            }
         }
-
-        return n - del;
+        
+        return res;
     }
 }
