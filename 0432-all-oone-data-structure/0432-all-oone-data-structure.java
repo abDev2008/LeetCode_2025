@@ -1,99 +1,99 @@
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 class AllOne {
-
+    // Bucket class represents a node in the doubly linked list.
     private class Bucket {
-        int count;             
-        Set<String> keys;     
-        Bucket prev;           
-        Bucket next;            
+        int count;
+        LinkedHashSet<String> keys;
+        Bucket prev, next;
 
-        Bucket(int count) {
+        public Bucket(int count) {
             this.count = count;
-            keys = new HashSet<>();
+            keys = new LinkedHashSet<>();
         }
     }
-    
-    private Bucket head;
-    private Bucket tail;
-    
-    private Map<String, Bucket> keyToBucket;
-    private Map<Integer, Bucket> countToBucket;
-    
+
+    // Dummy head and tail to avoid edge-case checks.
+    private Bucket head, tail;
+    // Map from key to its bucket.
+    private Map<String, Bucket> keyBucketMap;
+    // Map from count to the bucket with that count.
+    private Map<Integer, Bucket> countBucketMap;
+
+    /** Initializes the data structure. */
     public AllOne() {
         head = new Bucket(Integer.MIN_VALUE);
         tail = new Bucket(Integer.MAX_VALUE);
         head.next = tail;
         tail.prev = head;
-        
-        keyToBucket = new HashMap<>();
-        countToBucket = new HashMap<>();
+        keyBucketMap = new HashMap<>();
+        countBucketMap = new HashMap<>();
     }
-    
 
-    private void insertBucketAfter(Bucket newBucket, Bucket bucket) {
-        newBucket.prev = bucket;
-        newBucket.next = bucket.next;
-        bucket.next.prev = newBucket;
-        bucket.next = newBucket;
-        countToBucket.put(newBucket.count, newBucket);
+    /**
+     * Inserts newBucket into the doubly linked list right after prevBucket.
+     */
+    private void addBucketAfter(Bucket newBucket, Bucket prevBucket) {
+        newBucket.prev = prevBucket;
+        newBucket.next = prevBucket.next;
+        prevBucket.next.prev = newBucket;
+        prevBucket.next = newBucket;
+        countBucketMap.put(newBucket.count, newBucket);
     }
-    
 
+    /**
+     * Removes bucket from the doubly linked list.
+     */
     private void removeBucket(Bucket bucket) {
         bucket.prev.next = bucket.next;
         bucket.next.prev = bucket.prev;
-        countToBucket.remove(bucket.count);
+        countBucketMap.remove(bucket.count);
     }
-    
 
+    /**
+     * Increments the count of key by 1.
+     * If key does not exist, insert it with count = 1.
+     */
     public void inc(String key) {
-        if (keyToBucket.containsKey(key)) {
-            Bucket curBucket = keyToBucket.get(key);
+        if (keyBucketMap.containsKey(key)) {
+            Bucket curBucket = keyBucketMap.get(key);
             int newCount = curBucket.count + 1;
             Bucket nextBucket = curBucket.next;
-            Bucket newBucket;
-            
             if (nextBucket == tail || nextBucket.count != newCount) {
-                newBucket = new Bucket(newCount);
-                insertBucketAfter(newBucket, curBucket);
-            } else {
-                newBucket = nextBucket;
+                Bucket newBucket = new Bucket(newCount);
+                addBucketAfter(newBucket, curBucket);
+                nextBucket = newBucket;
             }
-            
-            newBucket.keys.add(key);
-            keyToBucket.put(key, newBucket);
+            nextBucket.keys.add(key);
+            keyBucketMap.put(key, nextBucket);
             curBucket.keys.remove(key);
-            
             if (curBucket.keys.isEmpty()) {
                 removeBucket(curBucket);
             }
         } else {
+            // New key: count will be 1.
             int newCount = 1;
-            Bucket bucket1;
-            
-            if (head.next == tail || head.next.count != newCount) {
+            Bucket bucket1 = head.next;
+            if (bucket1 == tail || bucket1.count != newCount) {
                 bucket1 = new Bucket(newCount);
-                insertBucketAfter(bucket1, head);
-            } else {
-                bucket1 = head.next;
+                addBucketAfter(bucket1, head);
             }
-            
             bucket1.keys.add(key);
-            keyToBucket.put(key, bucket1);
+            keyBucketMap.put(key, bucket1);
         }
     }
-    
 
+    /**
+     * Decrements the count of key by 1.
+     * If the count becomes 0, remove key from the data structure.
+     * It is guaranteed that key exists.
+     */
     public void dec(String key) {
-        Bucket curBucket = keyToBucket.get(key);
+        Bucket curBucket = keyBucketMap.get(key);
         int curCount = curBucket.count;
-        
         if (curCount == 1) {
-            keyToBucket.remove(key);
+            // Remove the key entirely.
+            keyBucketMap.remove(key);
             curBucket.keys.remove(key);
             if (curBucket.keys.isEmpty()) {
                 removeBucket(curBucket);
@@ -101,38 +101,45 @@ class AllOne {
         } else {
             int newCount = curCount - 1;
             Bucket prevBucket = curBucket.prev;
-            Bucket newBucket;
-            
             if (prevBucket == head || prevBucket.count != newCount) {
-                newBucket = new Bucket(newCount);
-                insertBucketAfter(newBucket, curBucket.prev);
-            } else {
-                newBucket = prevBucket;
+                Bucket newBucket = new Bucket(newCount);
+                addBucketAfter(newBucket, curBucket.prev);
+                prevBucket = newBucket;
             }
-            
-            newBucket.keys.add(key);
-            keyToBucket.put(key, newBucket);
+            prevBucket.keys.add(key);
+            keyBucketMap.put(key, prevBucket);
             curBucket.keys.remove(key);
-            
             if (curBucket.keys.isEmpty()) {
                 removeBucket(curBucket);
             }
         }
     }
-    
 
+    /**
+     * Returns one of the keys with the maximal count.
+     * If no key exists, returns an empty string.
+     */
     public String getMaxKey() {
-        if (tail.prev == head) {
-            return "";
-        }
+        if (tail.prev == head) return "";
+        // LinkedHashSet guarantees fast access to an arbitrary (in this case, first) element.
         return tail.prev.keys.iterator().next();
     }
-    
 
+    /**
+     * Returns one of the keys with the minimal count.
+     * If no key exists, returns an empty string.
+     */
     public String getMinKey() {
-        if (head.next == tail) {
-            return "";
-        }
+        if (head.next == tail) return "";
         return head.next.keys.iterator().next();
     }
 }
+
+/**
+ * Your AllOne object will be instantiated and called as such:
+ * AllOne obj = new AllOne();
+ * obj.inc(key);
+ * obj.dec(key);
+ * String param_3 = obj.getMaxKey();
+ * String param_4 = obj.getMinKey();
+ */
