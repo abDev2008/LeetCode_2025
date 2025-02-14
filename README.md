@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0952-word-subsets](https://github.com/abDev2008/LeetCode_2025/tree/master/0952-word-subsets) |
 | [1364-tuple-with-same-product](https://github.com/abDev2008/LeetCode_2025/tree/master/1364-tuple-with-same-product) |
 | [1396-count-servers-that-communicate](https://github.com/abDev2008/LeetCode_2025/tree/master/1396-count-servers-that-communicate) |
+| [1477-product-of-the-last-k-numbers](https://github.com/abDev2008/LeetCode_2025/tree/master/1477-product-of-the-last-k-numbers) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/abDev2008/LeetCode_2025/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1524-string-matching-in-an-array](https://github.com/abDev2008/LeetCode_2025/tree/master/1524-string-matching-in-an-array) |
 | [1876-map-of-highest-peak](https://github.com/abDev2008/LeetCode_2025/tree/master/1876-map-of-highest-peak) |
@@ -49,6 +50,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Prefix Sum
 |  |
 | ------- |
+| [1477-product-of-the-last-k-numbers](https://github.com/abDev2008/LeetCode_2025/tree/master/1477-product-of-the-last-k-numbers) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/abDev2008/LeetCode_2025/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/abDev2008/LeetCode_2025/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2145-grid-game](https://github.com/abDev2008/LeetCode_2025/tree/master/2145-grid-game) |
@@ -193,6 +195,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0432-all-oone-data-structure](https://github.com/abDev2008/LeetCode_2025/tree/master/0432-all-oone-data-structure) |
+| [1477-product-of-the-last-k-numbers](https://github.com/abDev2008/LeetCode_2025/tree/master/1477-product-of-the-last-k-numbers) |
 | [2434-design-a-number-container-system](https://github.com/abDev2008/LeetCode_2025/tree/master/2434-design-a-number-container-system) |
 ## Ordered Set
 |  |
@@ -201,6 +204,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [1477-product-of-the-last-k-numbers](https://github.com/abDev2008/LeetCode_2025/tree/master/1477-product-of-the-last-k-numbers) |
 | [2448-count-number-of-bad-pairs](https://github.com/abDev2008/LeetCode_2025/tree/master/2448-count-number-of-bad-pairs) |
 ## Simulation
 |  |
@@ -216,4 +220,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0432-all-oone-data-structure](https://github.com/abDev2008/LeetCode_2025/tree/master/0432-all-oone-data-structure) |
+## Data Stream
+|  |
+| ------- |
+| [1477-product-of-the-last-k-numbers](https://github.com/abDev2008/LeetCode_2025/tree/master/1477-product-of-the-last-k-numbers) |
 <!---LeetCode Topics End-->
