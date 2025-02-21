@@ -1,7 +1,7 @@
 import java.util.HashSet;
 
 class FindElements {
-    HashSet<Integer> set; // Stores all recovered values
+    HashSet<Integer> set; 
 
     public FindElements(TreeNode root) {
         set = new HashSet<>();
