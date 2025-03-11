@@ -36,6 +36,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2764-maximum-number-of-fish-in-a-grid](https://github.com/abDev2008/LeetCode_2025/tree/master/2764-maximum-number-of-fish-in-a-grid) |
 | [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/abDev2008/LeetCode_2025/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
 | [2792-neighboring-bitwise-xor](https://github.com/abDev2008/LeetCode_2025/tree/master/2792-neighboring-bitwise-xor) |
+| [2868-continuous-subarrays](https://github.com/abDev2008/LeetCode_2025/tree/master/2868-continuous-subarrays) |
 | [3219-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/abDev2008/LeetCode_2025/tree/master/3219-make-lexicographically-smallest-array-by-swapping-elements) |
 | [3227-find-missing-and-repeated-values](https://github.com/abDev2008/LeetCode_2025/tree/master/3227-find-missing-and-repeated-values) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/abDev2008/LeetCode_2025/tree/master/3309-count-prefix-and-suffix-pairs-i) |
@@ -178,6 +179,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/abDev2008/LeetCode_2025/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [2434-design-a-number-container-system](https://github.com/abDev2008/LeetCode_2025/tree/master/2434-design-a-number-container-system) |
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/abDev2008/LeetCode_2025/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
+| [2868-continuous-subarrays](https://github.com/abDev2008/LeetCode_2025/tree/master/2868-continuous-subarrays) |
 | [3332-minimum-operations-to-exceed-threshold-value-ii](https://github.com/abDev2008/LeetCode_2025/tree/master/3332-minimum-operations-to-exceed-threshold-value-ii) |
 ## Matrix
 |  |
@@ -239,6 +241,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2434-design-a-number-container-system](https://github.com/abDev2008/LeetCode_2025/tree/master/2434-design-a-number-container-system) |
+| [2868-continuous-subarrays](https://github.com/abDev2008/LeetCode_2025/tree/master/2868-continuous-subarrays) |
 ## Math
 |  |
 | ------- |
@@ -317,6 +320,15 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/abDev2008/LeetCode_2025/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/abDev2008/LeetCode_2025/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
+| [2868-continuous-subarrays](https://github.com/abDev2008/LeetCode_2025/tree/master/2868-continuous-subarrays) |
 | [3483-alternating-groups-ii](https://github.com/abDev2008/LeetCode_2025/tree/master/3483-alternating-groups-ii) |
 | [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/abDev2008/LeetCode_2025/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
+## Queue
+|  |
+| ------- |
+| [2868-continuous-subarrays](https://github.com/abDev2008/LeetCode_2025/tree/master/2868-continuous-subarrays) |
+## Monotonic Queue
+|  |
+| ------- |
+| [2868-continuous-subarrays](https://github.com/abDev2008/LeetCode_2025/tree/master/2868-continuous-subarrays) |
 <!---LeetCode Topics End-->
