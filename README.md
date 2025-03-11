@@ -42,6 +42,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/abDev2008/LeetCode_2025/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 | [3332-minimum-operations-to-exceed-threshold-value-ii](https://github.com/abDev2008/LeetCode_2025/tree/master/3332-minimum-operations-to-exceed-threshold-value-ii) |
 | [3372-longest-strictly-increasing-or-strictly-decreasing-subarray](https://github.com/abDev2008/LeetCode_2025/tree/master/3372-longest-strictly-increasing-or-strictly-decreasing-subarray) |
+| [3374-count-alternating-subarrays](https://github.com/abDev2008/LeetCode_2025/tree/master/3374-count-alternating-subarrays) |
 | [3483-alternating-groups-ii](https://github.com/abDev2008/LeetCode_2025/tree/master/3483-alternating-groups-ii) |
 ## String
 |  |
@@ -255,6 +256,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2649-count-total-number-of-colored-cells](https://github.com/abDev2008/LeetCode_2025/tree/master/2649-count-total-number-of-colored-cells) |
 | [2802-find-the-punishment-number-of-an-integer](https://github.com/abDev2008/LeetCode_2025/tree/master/2802-find-the-punishment-number-of-an-integer) |
 | [3227-find-missing-and-repeated-values](https://github.com/abDev2008/LeetCode_2025/tree/master/3227-find-missing-and-repeated-values) |
+| [3374-count-alternating-subarrays](https://github.com/abDev2008/LeetCode_2025/tree/master/3374-count-alternating-subarrays) |
 ## Simulation
 |  |
 | ------- |
