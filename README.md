@@ -99,6 +99,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2434-design-a-number-container-system](https://github.com/abDev2008/LeetCode_2025/tree/master/2434-design-a-number-container-system) |
 | [2448-count-number-of-bad-pairs](https://github.com/abDev2008/LeetCode_2025/tree/master/2448-count-number-of-bad-pairs) |
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/abDev2008/LeetCode_2025/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
+| [2677-cousins-in-binary-tree-ii](https://github.com/abDev2008/LeetCode_2025/tree/master/2677-cousins-in-binary-tree-ii) |
 | [2685-first-completely-painted-row-or-column](https://github.com/abDev2008/LeetCode_2025/tree/master/2685-first-completely-painted-row-or-column) |
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/abDev2008/LeetCode_2025/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 | [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/abDev2008/LeetCode_2025/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
@@ -166,6 +167,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1876-map-of-highest-peak](https://github.com/abDev2008/LeetCode_2025/tree/master/1876-map-of-highest-peak) |
 | [2564-most-profitable-path-in-a-tree](https://github.com/abDev2008/LeetCode_2025/tree/master/2564-most-profitable-path-in-a-tree) |
 | [2583-divide-nodes-into-the-maximum-number-of-groups](https://github.com/abDev2008/LeetCode_2025/tree/master/2583-divide-nodes-into-the-maximum-number-of-groups) |
+| [2677-cousins-in-binary-tree-ii](https://github.com/abDev2008/LeetCode_2025/tree/master/2677-cousins-in-binary-tree-ii) |
 | [2764-maximum-number-of-fish-in-a-grid](https://github.com/abDev2008/LeetCode_2025/tree/master/2764-maximum-number-of-fish-in-a-grid) |
 ## Graph
 |  |
@@ -214,6 +216,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1558-course-schedule-iv](https://github.com/abDev2008/LeetCode_2025/tree/master/1558-course-schedule-iv) |
 | [2246-maximum-employees-to-be-invited-to-a-meeting](https://github.com/abDev2008/LeetCode_2025/tree/master/2246-maximum-employees-to-be-invited-to-a-meeting) |
 | [2564-most-profitable-path-in-a-tree](https://github.com/abDev2008/LeetCode_2025/tree/master/2564-most-profitable-path-in-a-tree) |
+| [2677-cousins-in-binary-tree-ii](https://github.com/abDev2008/LeetCode_2025/tree/master/2677-cousins-in-binary-tree-ii) |
 | [2764-maximum-number-of-fish-in-a-grid](https://github.com/abDev2008/LeetCode_2025/tree/master/2764-maximum-number-of-fish-in-a-grid) |
 ## Union Find
 |  |
@@ -296,11 +299,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/abDev2008/LeetCode_2025/tree/master/1093-recover-a-tree-from-preorder-traversal) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/abDev2008/LeetCode_2025/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 | [2564-most-profitable-path-in-a-tree](https://github.com/abDev2008/LeetCode_2025/tree/master/2564-most-profitable-path-in-a-tree) |
+| [2677-cousins-in-binary-tree-ii](https://github.com/abDev2008/LeetCode_2025/tree/master/2677-cousins-in-binary-tree-ii) |
 ## Binary Tree
 |  |
 | ------- |
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/abDev2008/LeetCode_2025/tree/master/1093-recover-a-tree-from-preorder-traversal) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/abDev2008/LeetCode_2025/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
+| [2677-cousins-in-binary-tree-ii](https://github.com/abDev2008/LeetCode_2025/tree/master/2677-cousins-in-binary-tree-ii) |
 ## Dynamic Programming
 |  |
 | ------- |
