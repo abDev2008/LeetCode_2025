@@ -5,7 +5,6 @@ class Solution {
         }
         return parent[node];
     }
-
     public int[] minimumCost(int n, int[][] edges, int[][] query) {
         int[] parent = new int[n];
         int[] minPathCost = new int[n];
@@ -14,7 +13,6 @@ class Solution {
         for (int i = 0; i < n; i++) {
             parent[i] = i;
         }
-
         for (int[] edge : edges) {
             int source = edge[0], target = edge[1], weight = edge[2];
             int sourceRoot = findRoot(parent, source);
