@@ -63,6 +63,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0168-excel-sheet-column-title](https://github.com/abDev2008/LeetCode_2025/tree/master/0168-excel-sheet-column-title) |
+| [0768-partition-labels](https://github.com/abDev2008/LeetCode_2025/tree/master/0768-partition-labels) |
 | [0952-word-subsets](https://github.com/abDev2008/LeetCode_2025/tree/master/0952-word-subsets) |
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/abDev2008/LeetCode_2025/tree/master/1093-recover-a-tree-from-preorder-traversal) |
 | [1160-letter-tile-possibilities](https://github.com/abDev2008/LeetCode_2025/tree/master/1160-letter-tile-possibilities) |
@@ -102,6 +103,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0432-all-oone-data-structure](https://github.com/abDev2008/LeetCode_2025/tree/master/0432-all-oone-data-structure) |
+| [0768-partition-labels](https://github.com/abDev2008/LeetCode_2025/tree/master/0768-partition-labels) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/abDev2008/LeetCode_2025/tree/master/0905-length-of-longest-fibonacci-subsequence) |
 | [0952-word-subsets](https://github.com/abDev2008/LeetCode_2025/tree/master/0952-word-subsets) |
 | [1160-letter-tile-possibilities](https://github.com/abDev2008/LeetCode_2025/tree/master/1160-letter-tile-possibilities) |
@@ -156,6 +158,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Greedy
 |  |
 | ------- |
+| [0768-partition-labels](https://github.com/abDev2008/LeetCode_2025/tree/master/0768-partition-labels) |
 | [1502-construct-k-palindrome-strings](https://github.com/abDev2008/LeetCode_2025/tree/master/1502-construct-k-palindrome-strings) |
 | [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/abDev2008/LeetCode_2025/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
 | [2509-minimize-xor](https://github.com/abDev2008/LeetCode_2025/tree/master/2509-minimize-xor) |
@@ -366,6 +369,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Two Pointers
 |  |
 | ------- |
+| [0768-partition-labels](https://github.com/abDev2008/LeetCode_2025/tree/master/0768-partition-labels) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/abDev2008/LeetCode_2025/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2551-apply-operations-to-an-array](https://github.com/abDev2008/LeetCode_2025/tree/master/2551-apply-operations-to-an-array) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/abDev2008/LeetCode_2025/tree/master/2588-maximum-number-of-points-from-grid-queries) |
