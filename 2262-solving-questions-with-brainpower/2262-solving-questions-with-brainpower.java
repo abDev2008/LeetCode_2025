@@ -1,20 +1,23 @@
 class Solution {
-    public long helper(int index, int[][] questions, long[]dp){
-        if(index == questions.length-1){
-            return questions[index][0];
-        }
-        if(dp[index] != -1)
-            return dp[index];
-        long pos1 = questions[index][0];
-        if(index+questions[index][1]+1 < questions.length)
-            pos1 += helper(index+questions[index][1]+1, questions,dp);
-        long pos2 = helper(index+1,questions,dp);
+  long[] dp;
+  public long mostPoints(int[][] questions) {
+    dp = new long[questions.length];
+    Arrays.fill(dp, -1);
+    return helper(questions,0);
+  }
+  private long helper(int[][] q, int idx) {
+    if(idx >= q.length){
+      return 0;
+    }
 
-        return dp[index] = Math.max(pos1,pos2);
+    if(dp[idx] != -1){
+      return dp[idx];
     }
-    public long mostPoints(int[][] questions) {
-        long[] dp = new long[questions.length+1];
-        Arrays.fill(dp,-1);
-        return helper(0,questions,dp);
-    }
+
+    int points=q[idx][0];
+    long skip=helper(q,idx+1);
+    long solve = helper(q, idx + q[idx][1]+1) + points;
+    return dp[idx]=Math.max(skip, solve);
+
+  }
 }
