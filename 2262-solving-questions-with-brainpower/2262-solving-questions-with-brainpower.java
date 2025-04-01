@@ -9,11 +9,9 @@ class Solution {
     if(idx >= q.length){
       return 0;
     }
-
     if(dp[idx] != -1){
       return dp[idx];
     }
-
     int points=q[idx][0];
     long skip=helper(q,idx+1);
     long solve = helper(q, idx + q[idx][1]+1) + points;
