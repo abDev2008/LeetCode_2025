@@ -328,6 +328,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1477-product-of-the-last-k-numbers](https://github.com/abDev2008/LeetCode_2025/tree/master/1477-product-of-the-last-k-numbers) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/abDev2008/LeetCode_2025/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1889-check-if-number-is-a-sum-of-powers-of-three](https://github.com/abDev2008/LeetCode_2025/tree/master/1889-check-if-number-is-a-sum-of-powers-of-three) |
+| [2050-count-good-numbers](https://github.com/abDev2008/LeetCode_2025/tree/master/2050-count-good-numbers) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/abDev2008/LeetCode_2025/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [2448-count-number-of-bad-pairs](https://github.com/abDev2008/LeetCode_2025/tree/master/2448-count-number-of-bad-pairs) |
 | [2610-closest-prime-numbers-in-range](https://github.com/abDev2008/LeetCode_2025/tree/master/2610-closest-prime-numbers-in-range) |
@@ -404,6 +405,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0050-powx-n](https://github.com/abDev2008/LeetCode_2025/tree/master/0050-powx-n) |
+| [2050-count-good-numbers](https://github.com/abDev2008/LeetCode_2025/tree/master/2050-count-good-numbers) |
 ## Number Theory
 |  |
 | ------- |
