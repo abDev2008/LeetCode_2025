@@ -15,6 +15,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/abDev2008/LeetCode_2025/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1524-string-matching-in-an-array](https://github.com/abDev2008/LeetCode_2025/tree/master/1524-string-matching-in-an-array) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/abDev2008/LeetCode_2025/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
+| [1656-count-good-triplets](https://github.com/abDev2008/LeetCode_2025/tree/master/1656-count-good-triplets) |
 | [1819-construct-the-lexicographically-largest-valid-sequence](https://github.com/abDev2008/LeetCode_2025/tree/master/1819-construct-the-lexicographically-largest-valid-sequence) |
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/abDev2008/LeetCode_2025/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
 | [1876-map-of-highest-peak](https://github.com/abDev2008/LeetCode_2025/tree/master/1876-map-of-highest-peak) |
@@ -448,5 +449,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Enumeration
 |  |
 | ------- |
+| [1656-count-good-triplets](https://github.com/abDev2008/LeetCode_2025/tree/master/1656-count-good-triplets) |
 | [3548-find-the-count-of-good-integers](https://github.com/abDev2008/LeetCode_2025/tree/master/3548-find-the-count-of-good-integers) |
 <!---LeetCode Topics End-->
