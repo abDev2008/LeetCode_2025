@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0368-largest-divisible-subset](https://github.com/abDev2008/LeetCode_2025/tree/master/0368-largest-divisible-subset) |
 | [0407-trapping-rain-water-ii](https://github.com/abDev2008/LeetCode_2025/tree/master/0407-trapping-rain-water-ii) |
+| [0797-rabbits-in-forest](https://github.com/abDev2008/LeetCode_2025/tree/master/0797-rabbits-in-forest) |
 | [0854-making-a-large-island](https://github.com/abDev2008/LeetCode_2025/tree/master/0854-making-a-large-island) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/abDev2008/LeetCode_2025/tree/master/0905-length-of-longest-fibonacci-subsequence) |
 | [0952-word-subsets](https://github.com/abDev2008/LeetCode_2025/tree/master/0952-word-subsets) |
@@ -117,6 +118,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0432-all-oone-data-structure](https://github.com/abDev2008/LeetCode_2025/tree/master/0432-all-oone-data-structure) |
 | [0768-partition-labels](https://github.com/abDev2008/LeetCode_2025/tree/master/0768-partition-labels) |
+| [0797-rabbits-in-forest](https://github.com/abDev2008/LeetCode_2025/tree/master/0797-rabbits-in-forest) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/abDev2008/LeetCode_2025/tree/master/0905-length-of-longest-fibonacci-subsequence) |
 | [0952-word-subsets](https://github.com/abDev2008/LeetCode_2025/tree/master/0952-word-subsets) |
 | [1160-letter-tile-possibilities](https://github.com/abDev2008/LeetCode_2025/tree/master/1160-letter-tile-possibilities) |
@@ -177,6 +179,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0768-partition-labels](https://github.com/abDev2008/LeetCode_2025/tree/master/0768-partition-labels) |
+| [0797-rabbits-in-forest](https://github.com/abDev2008/LeetCode_2025/tree/master/0797-rabbits-in-forest) |
 | [1502-construct-k-palindrome-strings](https://github.com/abDev2008/LeetCode_2025/tree/master/1502-construct-k-palindrome-strings) |
 | [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/abDev2008/LeetCode_2025/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
 | [2509-minimize-xor](https://github.com/abDev2008/LeetCode_2025/tree/master/2509-minimize-xor) |
@@ -332,6 +335,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0050-powx-n](https://github.com/abDev2008/LeetCode_2025/tree/master/0050-powx-n) |
 | [0168-excel-sheet-column-title](https://github.com/abDev2008/LeetCode_2025/tree/master/0168-excel-sheet-column-title) |
 | [0368-largest-divisible-subset](https://github.com/abDev2008/LeetCode_2025/tree/master/0368-largest-divisible-subset) |
+| [0797-rabbits-in-forest](https://github.com/abDev2008/LeetCode_2025/tree/master/0797-rabbits-in-forest) |
 | [1477-product-of-the-last-k-numbers](https://github.com/abDev2008/LeetCode_2025/tree/master/1477-product-of-the-last-k-numbers) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/abDev2008/LeetCode_2025/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1889-check-if-number-is-a-sum-of-powers-of-three](https://github.com/abDev2008/LeetCode_2025/tree/master/1889-check-if-number-is-a-sum-of-powers-of-three) |
