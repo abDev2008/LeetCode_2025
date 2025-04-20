@@ -1,5 +1,3 @@
-import java.util.*;
-
 public class Solution {
     public int numRabbits(int[] answers) {
         Map<Integer, Integer> freq = new HashMap<>();
