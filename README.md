@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0015-3sum](https://github.com/abDev2008/LeetCode_2025/tree/master/0015-3sum) |
 | [0051-n-queens](https://github.com/abDev2008/LeetCode_2025/tree/master/0051-n-queens) |
 | [0368-largest-divisible-subset](https://github.com/abDev2008/LeetCode_2025/tree/master/0368-largest-divisible-subset) |
 | [0407-trapping-rain-water-ii](https://github.com/abDev2008/LeetCode_2025/tree/master/0407-trapping-rain-water-ii) |
@@ -314,6 +315,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sorting
 |  |
 | ------- |
+| [0015-3sum](https://github.com/abDev2008/LeetCode_2025/tree/master/0015-3sum) |
 | [0368-largest-divisible-subset](https://github.com/abDev2008/LeetCode_2025/tree/master/0368-largest-divisible-subset) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/abDev2008/LeetCode_2025/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/abDev2008/LeetCode_2025/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
@@ -420,6 +422,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Two Pointers
 |  |
 | ------- |
+| [0015-3sum](https://github.com/abDev2008/LeetCode_2025/tree/master/0015-3sum) |
 | [0768-partition-labels](https://github.com/abDev2008/LeetCode_2025/tree/master/0768-partition-labels) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/abDev2008/LeetCode_2025/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2551-apply-operations-to-an-array](https://github.com/abDev2008/LeetCode_2025/tree/master/2551-apply-operations-to-an-array) |
