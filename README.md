@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0854-making-a-large-island](https://github.com/abDev2008/LeetCode_2025/tree/master/0854-making-a-large-island) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/abDev2008/LeetCode_2025/tree/master/0905-length-of-longest-fibonacci-subsequence) |
 | [0952-word-subsets](https://github.com/abDev2008/LeetCode_2025/tree/master/0952-word-subsets) |
+| [1049-minimum-domino-rotations-for-equal-row](https://github.com/abDev2008/LeetCode_2025/tree/master/1049-minimum-domino-rotations-for-equal-row) |
 | [1364-tuple-with-same-product](https://github.com/abDev2008/LeetCode_2025/tree/master/1364-tuple-with-same-product) |
 | [1396-count-servers-that-communicate](https://github.com/abDev2008/LeetCode_2025/tree/master/1396-count-servers-that-communicate) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/abDev2008/LeetCode_2025/tree/master/1421-find-numbers-with-even-number-of-digits) |
@@ -194,6 +195,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0768-partition-labels](https://github.com/abDev2008/LeetCode_2025/tree/master/0768-partition-labels) |
 | [0797-rabbits-in-forest](https://github.com/abDev2008/LeetCode_2025/tree/master/0797-rabbits-in-forest) |
+| [1049-minimum-domino-rotations-for-equal-row](https://github.com/abDev2008/LeetCode_2025/tree/master/1049-minimum-domino-rotations-for-equal-row) |
 | [1502-construct-k-palindrome-strings](https://github.com/abDev2008/LeetCode_2025/tree/master/1502-construct-k-palindrome-strings) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/abDev2008/LeetCode_2025/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/abDev2008/LeetCode_2025/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
