@@ -13,6 +13,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/abDev2008/LeetCode_2025/tree/master/0905-length-of-longest-fibonacci-subsequence) |
 | [0952-word-subsets](https://github.com/abDev2008/LeetCode_2025/tree/master/0952-word-subsets) |
 | [1049-minimum-domino-rotations-for-equal-row](https://github.com/abDev2008/LeetCode_2025/tree/master/1049-minimum-domino-rotations-for-equal-row) |
+| [1293-three-consecutive-odds](https://github.com/abDev2008/LeetCode_2025/tree/master/1293-three-consecutive-odds) |
 | [1364-tuple-with-same-product](https://github.com/abDev2008/LeetCode_2025/tree/master/1364-tuple-with-same-product) |
 | [1396-count-servers-that-communicate](https://github.com/abDev2008/LeetCode_2025/tree/master/1396-count-servers-that-communicate) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/abDev2008/LeetCode_2025/tree/master/1421-find-numbers-with-even-number-of-digits) |
