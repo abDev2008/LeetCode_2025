@@ -89,6 +89,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0008-string-to-integer-atoi](https://github.com/abDev2008/LeetCode_2025/tree/master/0008-string-to-integer-atoi) |
 | [0038-count-and-say](https://github.com/abDev2008/LeetCode_2025/tree/master/0038-count-and-say) |
 | [0168-excel-sheet-column-title](https://github.com/abDev2008/LeetCode_2025/tree/master/0168-excel-sheet-column-title) |
 | [0768-partition-labels](https://github.com/abDev2008/LeetCode_2025/tree/master/0768-partition-labels) |
