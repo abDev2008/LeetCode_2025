@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0015-3sum](https://github.com/abDev2008/LeetCode_2025/tree/master/0015-3sum) |
 | [0051-n-queens](https://github.com/abDev2008/LeetCode_2025/tree/master/0051-n-queens) |
+| [0073-set-matrix-zeroes](https://github.com/abDev2008/LeetCode_2025/tree/master/0073-set-matrix-zeroes) |
 | [0368-largest-divisible-subset](https://github.com/abDev2008/LeetCode_2025/tree/master/0368-largest-divisible-subset) |
 | [0407-trapping-rain-water-ii](https://github.com/abDev2008/LeetCode_2025/tree/master/0407-trapping-rain-water-ii) |
 | [0797-rabbits-in-forest](https://github.com/abDev2008/LeetCode_2025/tree/master/0797-rabbits-in-forest) |
@@ -142,6 +143,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0073-set-matrix-zeroes](https://github.com/abDev2008/LeetCode_2025/tree/master/0073-set-matrix-zeroes) |
 | [0432-all-oone-data-structure](https://github.com/abDev2008/LeetCode_2025/tree/master/0432-all-oone-data-structure) |
 | [0768-partition-labels](https://github.com/abDev2008/LeetCode_2025/tree/master/0768-partition-labels) |
 | [0797-rabbits-in-forest](https://github.com/abDev2008/LeetCode_2025/tree/master/0797-rabbits-in-forest) |
@@ -287,6 +289,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Matrix
 |  |
 | ------- |
+| [0073-set-matrix-zeroes](https://github.com/abDev2008/LeetCode_2025/tree/master/0073-set-matrix-zeroes) |
 | [0407-trapping-rain-water-ii](https://github.com/abDev2008/LeetCode_2025/tree/master/0407-trapping-rain-water-ii) |
 | [0854-making-a-large-island](https://github.com/abDev2008/LeetCode_2025/tree/master/0854-making-a-large-island) |
 | [1396-count-servers-that-communicate](https://github.com/abDev2008/LeetCode_2025/tree/master/1396-count-servers-that-communicate) |
